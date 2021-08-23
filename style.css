@@ -1,0 +1,82 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+#imagedisp{
+    width: 20%;
+    height: 5%;
+}
+.navbar a{
+    float: left;
+    padding:10px 20px ;
+    color:white;
+    text-decoration: none;
+
+}
+.navbar{
+    overflow: hidden;
+    background-color:Red;
+}
+.navbar a:hover{
+    color:lightblue;
+    background-color: gray;
+
+
+
+
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.side{
+    flex:20%;
+    padding: 20px;
+    background-color:lightcyan;
+}
+.main{
+    flex:60%;
+    padding: 20px;
+    background-color:lightgoldenrodyellow;
+}
+
+
+
+
+#imagepart{
+    width: 80%;
+    height: 50%;
+}
+table{
+    font-family: cursive;
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+}
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color:#dddddd;
+}
+#form{
+    padding-top:50px;
+    text-align: center;
+    
+}
+input{
+    border: 1px solid black;
+    width:300px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.btn{
+    padding: 10px;
+    border: 1px groove cyan;
+    background-color: lightblue;
+}
